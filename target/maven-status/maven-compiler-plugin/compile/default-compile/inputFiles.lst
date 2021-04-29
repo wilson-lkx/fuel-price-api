@@ -1,0 +1,8 @@
+/home/wilson/fuel_price/src/main/java/online/wilson_lkx/controller/api/FuelPriceApiController.java
+/home/wilson/fuel_price/src/main/java/online/wilson_lkx/Main.java
+/home/wilson/fuel_price/src/main/java/online/wilson_lkx/dao/FuelPriceDaoImpl.java
+/home/wilson/fuel_price/src/main/java/online/wilson_lkx/repository/FuelPriceRepository.java
+/home/wilson/fuel_price/src/main/java/online/wilson_lkx/dao/FuelPriceDao.java
+/home/wilson/fuel_price/src/main/java/online/wilson_lkx/controller/api/model/Price.java
+/home/wilson/fuel_price/src/main/java/online/wilson_lkx/exception/ResourceNotFoundException.java
+/home/wilson/fuel_price/src/main/java/online/wilson_lkx/model/FuelPrice.java
