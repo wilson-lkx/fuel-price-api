@@ -1,2 +1,2 @@
-# fuel-price-api
+# fuel-apiFuelPrice-api
 It is about Fuel Price API

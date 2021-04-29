@@ -1,6 +1,6 @@
 package online.wilson_lkx.controller.api;
 
-import online.wilson_lkx.controller.api.model.Price;
+import online.wilson_lkx.controller.api.model.ApiFuelPrice;
 import online.wilson_lkx.model.FuelPrice;
 import online.wilson_lkx.repository.FuelPriceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,16 +29,16 @@ public class FuelPriceApiController {
             fuelPrices = fuelPriceRepository.findAll();
         }
 
-        List<Price> priceList = new ArrayList<>();
+        List<ApiFuelPrice> apiFuelPriceList = new ArrayList<>();
         for(FuelPrice fuelPrice : fuelPrices) {
-            priceList.add(new Price(fuelPrice));
+            apiFuelPriceList.add(new ApiFuelPrice(fuelPrice));
         }
-        return new ResponseEntity(priceList, HttpStatus.OK);
+        return new ResponseEntity(apiFuelPriceList, HttpStatus.OK);
     }
 
     @PostMapping
-    public ResponseEntity createFuelPrices(@RequestBody Price price) {
-        FuelPrice vtsFuelPrice = Price.convertModel(price);
+    public ResponseEntity createFuelPrices(@RequestBody ApiFuelPrice apiFuelPrice) {
+        FuelPrice vtsFuelPrice = ApiFuelPrice.convertModel(apiFuelPrice);
         fuelPriceRepository.saveAndFlush(vtsFuelPrice);
         return new ResponseEntity(HttpStatus.CREATED);
     }

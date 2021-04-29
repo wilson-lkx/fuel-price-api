@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoGeneratorSettingsState">
+    <option name="ignoredFields">
+      <set>
+        <option value="" />
+      </set>
+    </option>
+    <option name="moduleName" value="fuel_price" />
+    <option name="moduleNameToSettings">
+      <map>
+        <entry key="fuel_price">
+          <value>
+            <ModuleSettings>
+              <option name="entityPackageName" value="online.wilson_lkx.model" />
+              <option name="entityParentDirectory" value="$PROJECT_DIR$/src/main/java" />
+              <option name="repositoryPackageName" value="online.wilson_lkx.model" />
+              <option name="repositoryParentDirectory" value="$PROJECT_DIR$/src/main/java" />
+            </ModuleSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="DatabaseSettingsState">
+    <option name="database" value="demo" />
+    <option name="driverClass" value="com.mysql.cj.jdbc.Driver" />
+    <option name="driverPath" value="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.23/mysql-connector-java-8.0.23.jar" />
+    <option name="url" value="jdbc:mysql://localhost:3306/demo" />
+    <option name="username" value="wilson" />
+  </component>
+</project>
