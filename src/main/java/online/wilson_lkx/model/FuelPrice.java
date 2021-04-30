@@ -10,22 +10,22 @@ public class FuelPrice implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "FUEL_PRICE_ID")
+    @Column(name = "id")
     private Integer id;
 
-    @Column(name = "DATE_FROM")
+    @Column(name = "date_from")
     private Date dateFrom;
 
-    @Column(name = "DATE_UNTIL")
+    @Column(name = "date_until")
     private Date dateUntil;
 
-    @Column(name = "RON95")
+    @Column(name = "ron95")
     private Double ron95;
 
-    @Column(name = "RON97")
+    @Column(name = "ron97")
     private Double ron97;
 
-    @Column(name = "DIESEL")
+    @Column(name = "diesel")
     private Double diesel;
 
     public Integer getId() {
